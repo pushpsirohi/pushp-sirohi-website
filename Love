@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pushp Sirohi | Portfolio</title>
+  <meta name="description" content="Official website of Pushp Sirohi - Poems, YouTube, LinkedIn and creative work." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span class="logo">PS</span>
+        <span class="brand-text">Pushp Sirohi</span>
+      </div>
+
+      <nav class="menu" id="menu">
+        <a href="#about">About</a>
+        <a href="#youtube">YouTube</a>
+        <a href="#poems">Poems</a>
+        <a href="#linkedin">LinkedIn</a>
+        <a href="#contact" class="btn small">Contact</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Open menu" onclick="toggleMenu()">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="tag">Writer • Talent Acquisition Leader • Creator</p>
+        <h1>
+          Words that burn like poetry,<br />
+          and build careers like purpose.
+        </h1>
+        <p class="sub">
+          Welcome to my official space. Here you'll find my YouTube content, poems, and professional posts—all in one place.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#poems">Explore Poems</a>
+          <a class="btn ghost" href="#youtube">Watch Videos</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">15+ yrs</div>
+            <div class="stat-label">Talent Acquisition</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Poetry</div>
+            <div class="stat-label">Hindi • Urdu • English</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Content</div>
+            <div class="stat-label">YouTube + LinkedIn</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card profile">
+          <div class="profile-top">
+            <div class="avatar">👑</div>
+            <div>
+              <h3>Pushp Sirohi</h3>
+              <p class="muted">Godfather of Words</p>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <p class="quote">
+            “Main likhta hoon — taaki jazbaat bhi jeet jaayein, aur zindagi bhi.”
+          </p>
+
+          <div class="chips">
+            <span class="chip">Poetry</span>
+            <span class="chip">Career</span>
+            <span class="chip">Storytelling</span>
+            <span class="chip">Motivation</span>
+          </div>
+
+          <div class="profile-actions">
+            <a class="btn small" href="#contact">Work with me</a>
+            <a class="btn small ghost" href="#linkedin">Read posts</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p class="lead">
+        I am Pushp Sirohi — a Talent Acquisition leader with 15+ years of experience, and a poet who writes love, darkness, devotion, and truth.
+      </p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>What I do</h3>
+          <p class="muted">
+            Talent Acquisition, Hiring Strategy, Stakeholder Management, Interviewing, and leadership mentoring.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>What I write</h3>
+          <p class="muted">
+            Hindi/Urdu shayari, modern poetry, romantic & dark themes inspired by classics.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>What you’ll find here</h3>
+          <p class="muted">
+            YouTube videos, PoemHunter links, LinkedIn writing, and ways to connect.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YOUTUBE -->
+  <section class="section alt" id="youtube">
+    <div class="container">
+      <div class="section-head">
+        <h2>YouTube</h2>
+        <p class="muted">My latest channels & videos.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Update these links -->
+        <div class="card">
+          <h3>Channel 1</h3>
+          <p class="muted">Poetry, narration, voice and emotions.</p>
+          <a class="btn small" target="_blank" href="https://www.youtube.com/">Visit Channel</a>
+        </div>
+
+        <div class="card">
+          <h3>Channel 2</h3>
+          <p class="muted">Motivation + life + wisdom.</p>
+          <a class="btn small" target="_blank" href="https://www.youtube.com/">Visit Channel</a>
+        </div>
+      </div>
+
+      <div class="card video">
+        <h3>Featured Video</h3>
+        <p class="muted">Replace the embed link with your video link.</p>
+
+        <!-- Replace VIDEO_ID -->
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POEMS -->
+  <section class="section" id="poems">
+    <div class="container">
+      <div class="section-head">
+        <h2>Poems</h2>
+        <p class="muted">A selection of my work — love, devotion & darkness.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Replace with your poem links -->
+        <a class="card linkcard" target="_blank" href="https://www.poemhunter.com/">
+          <h3>PoemHunter Profile</h3>
+          <p class="muted">Read my published poems and collections.</p>
+          <span class="link">Open →</span>
+        </a>
+
+        <div class="card">
+          <h3>Featured Poem</h3>
+          <p class="muted">
+            “Main usse mila… aur mohabbat ne mujhe andhera bana diya.”
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Poetry Themes</h3>
+          <ul class="list">
+            <li>Romantic intensity</li>
+            <li>Dark devotion</li>
+            <li>Urdu metaphors</li>
+            <li>Spiritual longing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LINKEDIN -->
+  <section class="section alt" id="linkedin">
+    <div class="container">
+      <div class="section-head">
+        <h2>LinkedIn</h2>
+        <p class="muted">Professional thoughts, leadership, hiring and growth.</p>
+      </div>
+
+      <div class="grid-2">
+        <a class="card linkcard" target="_blank" href="https://www.linkedin.com/">
+          <h3>My LinkedIn</h3>
+          <p class="muted">Read my latest posts & professional updates.</p>
+          <span class="link">Open →</span>
+        </a>
+
+        <div class="card">
+          <h3>Topics I write about</h3>
+          <ul class="list">
+            <li>Talent Acquisition</li>
+            <li>Interview frameworks</li>
+            <li>Hiring strategy</li>
+            <li>Career advice</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Let’s connect for collaboration, hiring, or poetry projects.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Quick Links</h3>
+          <div class="links">
+            <!-- Replace with your actual links -->
+            <a target="_blank" href="https://www.linkedin.com/">LinkedIn</a>
+            <a target="_blank" href="https://www.youtube.com/">YouTube</a>
+            <a target="_blank" href="https://www.poemhunter.com/">PoemHunter</a>
+            <a target="_blank" href="mailto:yourmail@example.com">Email</a>
+          </div>
+        </div>
+
+        <form class="card form" onsubmit="sendMessage(event)">
+          <h3>Send a message</h3>
+          <label>
+            Name
+            <input id="name" required placeholder="Your Name" />
+          </label>
+          <label>
+            Message
+            <textarea id="message" required placeholder="Write something..."></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+          <p class="muted tiny">This demo form opens your email client.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Pushp Sirohi • All Rights Reserved</p>
+      <p class="muted">Designed with ❤️ by lolo</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+:root{
+  --bg:#0b0b12;
+  --card:#121223;
+  --card2:#0f0f1d;
+  --text:#f4f4ff;
+  --muted:rgba(244,244,255,0.72);
+  --line:rgba(255,255,255,0.10);
+  --accent:#a78bfa;
+  --accent2:#22d3ee;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(1000px 600px at 20% 10%, rgba(167,139,250,0.12), transparent 50%),
+              radial-gradient(800px 500px at 80% 20%, rgba(34,211,238,0.10), transparent 55%),
+              var(--bg);
+  color:var(--text);
+}
+
+.container{max-width:1100px;margin:0 auto;padding:0 18px}
+h1,h2,h3{font-family:"Playfair Display", serif;margin:0}
+a{color:inherit;text-decoration:none}
+
+.nav{
+  position:sticky;top:0;z-index:10;
+  backdrop-filter: blur(14px);
+  background: rgba(11,11,18,0.65);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  height:68px;
+}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{
+  width:40px;height:40px;border-radius:12px;
+  display:grid;place-items:center;
+  background: linear-gradient(135deg, rgba(167,139,250,0.9), rgba(34,211,238,0.85));
+  color:#05050b;font-weight:900;
+}
+.brand-text{font-weight:800;letter-spacing:0.2px}
+
+.menu{display:flex;align-items:center;gap:18px}
+.menu a{color:var(--muted);font-weight:600}
+.menu a:hover{color:var(--text)}
+
+.hamburger{
+  display:none;
+  border:1px solid var(--line);
+  background:transparent;
+  color:var(--text);
+  padding:10px 12px;
+  border-radius:12px;
+  font-size:18px;
+}
+
+.hero{padding:70px 0 40px}
+.hero-grid{
+  display:grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap:24px;
+  align-items:stretch;
+}
+
+.tag{
+  display:inline-block;
+  border:1px solid var(--line);
+  padding:8px 12px;
+  border-radius:999px;
+  color:var(--muted);
+  font-weight:600;
+}
+
+.hero h1{
+  font-size:42px;
+  line-height:1.1;
+  margin:14px 0 10px;
+}
+
+.sub{color:var(--muted);font-size:16px;line-height:1.8;max-width:55ch}
+
+.cta{display:flex;gap:12px;margin:18px 0 20px;flex-wrap:wrap}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  gap:8px;
+  padding:12px 16px;
+  border-radius:14px;
+  background: linear-gradient(135deg, rgba(167,139,250,0.9), rgba(34,211,238,0.85));
+  color:#05050b;
+  font-weight:800;
+  border:none;
+}
+.btn:hover{filter:brightness(1.06)}
+.btn.ghost{
+  background:transparent;
+  color:var(--text);
+  border:1px solid var(--line);
+}
+.btn.small{padding:10px 12px;border-radius:12px;font-size:14px}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:14px;
+}
+.stat{
+  border:1px solid var(--line);
+  border-radius:16px;
+  background: rgba(18,18,35,0.45);
+  padding:12px;
+}
+.stat-num{font-weight:900;font-size:16px}
+.stat-label{color:var(--muted);font-size:13px;margin-top:4px}
+
+.section{padding:58px 0}
+.section.alt{
+  background: linear-gradient(180deg, rgba(18,18,35,0.45), rgba(11,11,18,0));
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.section h2{font-size:34px;margin-bottom:8px}
+.lead{color:var(--muted);line-height:1.9;max-width:80ch}
+
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+
+.card{
+  border:1px solid var(--line);
+  background: rgba(18,18,35,0.6);
+  border-radius:22px;
+  padding:18px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.22);
+}
+.card h3{font-size:20px;margin-bottom:6px}
+.muted{color:var(--muted)}
+.tiny{font-size:12px}
+
+.profile{height:100%}
+.profile-top{display:flex;align-items:center;gap:12px}
+.avatar{
+  width:56px;height:56px;border-radius:18px;
+  display:grid;place-items:center;
+  background: rgba(255,255,255,0.06);
+  border:1px solid var(--line);
+  font-size:26px;
+}
+.divider{height:1px;background:var(--line);margin:14px 0}
+.quote{color:var(--muted);line-height:1.9}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{
+  padding:8px 10px;border-radius:999px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,0.05);
+  color:var(--muted);
+  font-weight:600;
+  font-size:13px;
+}
+
+.profile-actions{display:flex;gap:10px;margin-top:16px}
+
+.linkcard{transition:transform 0.12s ease}
+.linkcard:hover{transform:translateY(-3px)}
+.link{display:inline-block;margin-top:12px;color:rgba(34,211,238,0.95);font-weight:800}
+
+.list{margin:10px 0 0 18px;color:var(--muted);line-height:1.9}
+
+.video{margin-top:14px}
+.video-frame{
+  margin-top:12px;
+  border-radius:18px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  background:#000;
+}
+.video-frame iframe{width:100%;aspect-ratio:16/9}
+
+.form label{display:block;margin-top:10px;color:var(--muted);font-weight:600}
+input, textarea{
+  width:100%;
+  margin-top:6px;
+  padding:12px 12px;
+  border-radius:14px;
+  border:1px solid var(--line);
+  background: rgba(10,10,18,0.65);
+  color:var(--text);
+  outline:none;
+}
+textarea{min-height:120px;resize:vertical}
+
+.footer{
+  border-top:1px solid var(--line);
+  padding:22px 0;
+  color:var(--muted);
+}
+.footer-inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+
+@media (max-width: 900px){
+  .hero-grid{grid-template-columns:1fr}
+  .grid-3{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
+}
+
+@media (max-width: 720px){
+  .menu{display:none}
+  .hamburger{display:block}
+  .menu.open{
+    display:flex;flex-direction:column;
+    position:absolute;
+    right:18px;top:72px;
+    background: rgba(18,18,35,0.95);
+    border:1px solid var(--line);
+    padding:16px;
+    border-radius:18px;
+    gap:14px;
+    min-width:220px;
+  }
+}
+function toggleMenu(){
+  const menu = document.getElementById("menu");
+  menu.classList.toggle("open");
+}
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+function sendMessage(e){
+  e.preventDefault();
+  const name = document.getElementById("name").value.trim();
+  const msg = document.getElementById("message").value.trim();
+
+  const subject = encodeURIComponent("Message from Website Visitor: " + name);
+  const body = encodeURIComponent(msg);
+
+  // Replace with your email
+  window.location.href = `mailto:yourmail@example.com?subject=${subject}&body=${body}`;
+}
