@@ -8,95 +8,106 @@
 <style>
 body {
     margin: 0;
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #0B1C2D;
     color: #F4F1E8;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #081623;
+    padding: 15px 0;
     text-align: center;
 }
 
-header {
-    padding: 80px 20px;
+nav a {
+    color: #C6A75E;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
 }
 
 h1 {
     font-size: 48px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
 }
 
 h2 {
-    font-weight: 300;
     color: #C6A75E;
-    margin-bottom: 40px;
-}
-
-p {
-    max-width: 700px;
-    margin: 0 auto 20px auto;
-    line-height: 1.6;
+    margin-bottom: 30px;
 }
 
 button {
     background-color: #C6A75E;
     color: #0B1C2D;
     border: none;
-    padding: 12px 24px;
-    font-size: 16px;
+    padding: 10px 20px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 footer {
-    margin-top: 80px;
-    padding: 20px;
-    font-size: 14px;
-    color: #aaa;
+    padding: 30px;
+    background: #081623;
+    text-align: center;
 }
 </style>
 </head>
 
 <body>
 
-<header>
+<nav>
+<a href="#home">Home</a>
+<a href="#books">Books</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
 <h1>Pushp Sirohi</h1>
-<h2>Governance Systems Thinker | Institutional Reform Strategist</h2>
+<p style="color:#C6A75E;">Governance Systems Thinker | Institutional Reform Strategist</p>
+<p>Examining Power. Structuring Authority. Engineering Institutions.</p>
+</section>
 
-<p>
-Examining Power. Structuring Authority. Engineering Institutions.
-</p>
-
-<p>
-Author of works on constitutional stewardship, democratic reform, and institutional design.
-</p>
-
-<button onclick="window.location.href='mailto:your@email.com'">
-Contact
-</button>
-</header>
-<section style="padding: 60px 20px; background-color: #12283d;">
+<section id="books">
 <h2>Books</h2>
 
-<p><strong>The Ethics of Constitutional Power</strong><br>
-Examining leadership, ego, and authority in democratic systems.</p>
+<p><strong>The Ethics of Constitutional Power</strong></p>
+<button onclick="window.open('https://amazon.in','_blank')">Buy on Amazon</button>
 
-<p><strong>When I Become President of India</strong><br>
-A doctrine of constitutional stewardship.</p>
+<p><strong>When I Become President of India</strong></p>
+<button onclick="window.open('https://amazon.in','_blank')">Buy on Amazon</button>
 
-<p><strong>Institutional Spine</strong><br>
-Rebuilding trust in democratic systems.</p>
+<p><strong>Institutional Spine</strong></p>
+<button onclick="window.open('https://amazon.in','_blank')">Buy on Amazon</button>
 
 </section>
 
-<section style="padding: 60px 20px;">
+<section id="about">
 <h2>About</h2>
-
 <p>
-Pushp Sirohi is a governance systems thinker and institutional reform strategist.
-His work examines constitutional authority, administrative psychology,
-and democratic resilience through structural design rather than political rhetoric.
+Pushp Sirohi examines power, constitutional authority,
+and democratic institutional reform through structured governance design.
+His work positions reform as stewardship — strengthening systems
+without destabilizing constitutional balance.
 </p>
-
 </section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: your@email.com</p>
+<p>
+<a href="https://linkedin.com" style="color:#C6A75E;">LinkedIn</a> |
+<a href="https://youtube.com" style="color:#C6A75E;">YouTube</a>
+</p>
+</section>
+
 <footer>
 © 2026 Pushp Sirohi | Institutional Spine
 </footer>
